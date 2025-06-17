@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    
+}
+
+.cta-button{
+
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border-radius: 6px; 
+    color: black;
+    background-color: white;
+    border:none;
+
+}
+
+.cta-button-div{
+    text-align: center;
+}
+
+.hero-section{
+    padding-top:256px;
+    padding-bottom:256px;
+    padding-left:400px;
+    padding-right:400px;
+    background-image:url("background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* product display section */
+
+.product-display-section{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.product-display-card{
+    
+    height: 250px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+
+.product-display-grid-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:25px;
+    /* justify-content: center; */
+}
+
+.card-one{
+    color: black;
+    background-image: url(newArrivals.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.productivity{
+
+    color: black;
+    background-image: url(product.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.workplace{
+    background-image: url(workplace.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.access{
+    
+    background-image: url(acc.avif);
+    background-position: center;
+    background-size: cover;
+
+}
+.sales{
+
+    background-image: url(sale.avif);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
