@@ -3,6 +3,58 @@ body{
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+nav{
+    /* position: fixed; */
+    padding: 12px 144px;
+    padding-right: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right:0;
+}
+
+a{
+    color: white;
+    text-decoration:none ;
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+
+}
+
+.nav-logo{
+    width: 32px;
+    height: 32px;
+}
+.cart-icon{
+    width: 32px;
+    height: 29px;
+}
+
+
+.right-nav-links{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+
+.nav-cart{
+    display: flex;
+    color: white;
+    align-items: center;
+    column-gap: 35px;
+}
+
+
 h1{
     font-size: 60px;
     font-weight: 900;
@@ -21,6 +73,10 @@ h4{
     text-align: center;
     color: white;
     
+}
+
+.hero-section-tagline{
+    padding: 0 28%;
 }
 
 .cta-button{
@@ -44,10 +100,16 @@ h4{
 }
 
 .hero-section{
-    padding-top:256px;
+    /* padding-top:256px;
     padding-bottom:256px;
     padding-left:400px;
-    padding-right:400px;
+    padding-right:400px; */
+
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image:url("background.jpg");
     background-position: center;
     background-size: cover;
@@ -61,6 +123,7 @@ h4{
     padding-right: 150px;
     padding-top: 75px;
     padding-bottom: 75px;
+    
 }
 
 .product-display-card{
