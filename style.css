@@ -196,7 +196,6 @@ h4{
 } */
 
 .hero-section2 {
-    border: 1px solid red;
     text-align: center;
     padding: 170px 100px;
     max-width: 900px;         /* Limit width like the screenshot */
@@ -210,8 +209,6 @@ h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-
 .hero-section2 p{
     font-size: 20px;
     font-weight: 500px;
@@ -221,10 +218,8 @@ h4{
 }
 
 .lvlup-button{
-
-    
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -234,7 +229,130 @@ h4{
     color: black;
     background-color: white;
     border:none;
+}
+
+.product-collection-section {
+  padding: 75px 150px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.product-collection-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-collection-section p {
+  font-size: 16px;
+  color: #4169e1;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.product-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.product-collection-card-one {
+  
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  text-align: left;
+  background-image: url(handcraft.avif);
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.product-collection-card-one h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 15px 5px 15px;
+}
+
+.product-collection-card-one p {
+  font-size: 14px;
+  color: white;
+  padding: 0 15px 15px 15px;
+  
+}
 
 
-    
+.product-collection-card-two{
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  text-align: left;
+  background-image: url(desk1.avif);
+  background-position: center;
+  background-size: cover;
+}
+
+.product-collection-card-two h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px 5px 15px;
+}
+
+.product-collection-card-two p {
+  font-size: 14px;
+  color: white;
+  padding: 0 15px 15px 15px;
+  font-weight: bold;
+}
+
+
+
+.product-collection-card-three{
+
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+  text-align: left;
+  background-image: url(focus.avif);
+  background-position: center;
+  background-size: cover;
+}
+
+.product-collection-card-three h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px 5px 15px;
+}
+
+.product-collection-card-three p {
+  font-size: 14px;
+  color: white;
+  padding: 0 15px 15px 15px;
+  font-weight: bold;
+}
+.product-collection-card-one:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.product-collection-card-two:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+.product-collection-card-three:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
 }
