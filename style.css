@@ -153,8 +153,8 @@ h4{
 }
 
 .card-one{
-    color: black;
-    background-image: url(newArrivals.webp);
+    color: white;
+    background-image: url(new.avif);
     background-position: center;
     background-size: cover;
     
@@ -162,7 +162,7 @@ h4{
 
 .productivity{
 
-    color: black;
+    color:white;
     background-image: url(product.webp);
     background-position: center;
     background-size: cover;
@@ -170,21 +170,22 @@ h4{
 }
 
 .workplace{
-    background-image: url(workplace.jpeg);
+    color:white;
+    background-image: url(workplace1.avif);
     background-position: center;
     background-size: cover;
 
 }
 
 .access{
-    
+    color:white;
     background-image: url(acc.avif);
     background-position: center;
     background-size: cover;
 
 }
 .sales{
-
+    color:white;
     background-image: url(sale.avif);
     background-position: center;
     background-size: cover;
@@ -206,10 +207,10 @@ h4{
 .hero-section2 {
     text-align: center;
     padding: 170px 100px;
-    max-width: 900px;         /* Limit width like the screenshot */
-    margin: 0 auto;           /* Center horizontally */
-    background-color: white;  /* Optional: background to match screenshot */
-    border-radius: 8px;       /* Optional: soft rounded corners */
+    max-width: 900px;         
+    margin: 0 auto;          
+    background-color: white;  
+    border-radius: 8px;       
     background-image: url(levelup.avif);
     background-position: center;
     color: white;
